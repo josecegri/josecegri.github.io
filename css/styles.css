@@ -1,68 +1,116 @@
-/* Frente-H1 Regular. A font by http://frente.cc */
-@font-face { 
-  font-family: 'FrenteH1-Regular';
-  src: url('/fonts/FrenteH1-Regular.otf');
+/* Frente-H1 Regular. A font by Frente. */
+@font-face {
+    font-family: "FrenteH1-Regular";
+    src: url("../fonts/FrenteH1-Regular.otf");
 }
 
-html, button, input, select, textarea,
-.pure-g [class *= "pure-u"] {
-  font-family: 'FrenteH1-Regular';
-  text-align: center;
-  background-color: #CCCC00;
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class*="pure-u"] {
+    font-family: "FrenteH1-Regular";
+    text-align: center;
+    background-color: #ffc5d3;
 }
 
 .pure-menu.pure-menu-open.pure-menu-horizontal {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 /* removes blue border when tapping an anchor on Android Stock browser */
-a { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
-.pure-menu a:link { color: white; }
-.pure-menu a:visited { color: white; }
-.pure-menu a:hover { color: black; }
-.pure-menu a:focus { color: black; }
-.pure-menu a:active { color: black; }
+.pure-menu a:link {
+    color: white;
+}
+.pure-menu a:visited {
+    color: white;
+}
+.pure-menu a:hover {
+    color: black;
+}
+.pure-menu a:focus {
+    color: black;
+}
+.pure-menu a:active {
+    color: black;
+}
 
 p.logo {
-  margin: 0.2em 0 0 0;
-  line-height: 1em;
+    margin: 0.2em 0 0 0;
+    line-height: 1em;
 }
 
 .pure-img {
-  margin: 4px;
+    margin: 4px;
 }
 
 @media only screen and (min-width: 1400px) {
-  p.logo { font-size: 22em !important; }
-  .summary { font-size: 4em; }
-  .pure-menu a { font-size: 3.5em !important; }
+    p.logo {
+        font-size: 22em !important;
+    }
+    .summary {
+        font-size: 4em;
+    }
+    .pure-menu a {
+        font-size: 3.5em !important;
+    }
 }
 
 @media only screen and (max-width: 1399px) {
-  p.logo { font-size: 16.8em !important;}
-  .summary { font-size: 3.5em; }
-  .pure-menu a { font-size: 3em !important; }
+    p.logo {
+        font-size: 16.8em !important;
+    }
+    .summary {
+        font-size: 3.5em;
+    }
+    .pure-menu a {
+        font-size: 3em !important;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
-  p.logo { font-size: 10.5em !important; }
-  .summary { font-size: 2.75em; }
-  .pure-menu a { font-size: 2.75em !important; }
+    p.logo {
+        font-size: 10.5em !important;
+    }
+    .summary {
+        font-size: 2.75em;
+    }
+    .pure-menu a {
+        font-size: 2.75em !important;
+    }
 }
 
 @media only screen and (max-width: 640px) {
-  p.logo { font-size: 7.2em !important; }
-  .summary { font-size: 2em; }
-  .pure-menu a { font-size: 2.5em !important; }
+    p.logo {
+        font-size: 7.2em !important;
+    }
+    .summary {
+        font-size: 2em;
+    }
+    .pure-menu a {
+        font-size: 2.5em !important;
+    }
 }
 
 @media only screen and (max-width: 480px) {
-  p.logo { font-size: 4.8em !important; }
-  .summary { font-size: 1.75em; }
-  .portrait { display: none; }
-  .pure-menu a { font-size: 2em !important; }
+    p.logo {
+        font-size: 4.8em !important;
+    }
+    .summary {
+        font-size: 1.75em;
+    }
+    .portrait {
+        display: none;
+    }
+    .pure-menu a {
+        font-size: 2em !important;
+    }
 }
 
 /* grid/layout debug * /
